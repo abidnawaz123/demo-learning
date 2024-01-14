@@ -1,0 +1,25 @@
+.cartsWrapper {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.582);
+    background-color: rgba(0, 0, 0, 0.616);
+    padding: 20px;
+}
+
+.itemsBox {
+    background-color: rgba(0, 0, 0, 0.616);
+    color: rgba(255, 255, 255, 0.582);
+    padding: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+
+    &:active {
+        background-color: rgba(0, 0, 0, 0.712);
+    }
+
+    .priceLabelWithFavIcon {
+        display: flex;
+        align-items: center;
+    }
+}
